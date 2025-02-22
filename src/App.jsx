@@ -1,11 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import AppRoutes from "./routes";
+import React from 'react';
+import Frompage from './Details/Frompage';
+import Heading from './Details/Heading'
 
-const App = () => {
-  return <AppRoutes />;
+function App()  {
+  return (
+    <div>
+      <Heading/>
+      <Frompage/>
+    </div>
+  )
 };
-
-export default App;
+export default App
