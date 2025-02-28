@@ -330,17 +330,7 @@ function Frompage() {
         </div>
       </form>
 
-      <div className="mt-8">
-        <h2 className="text-xl font-bold">Submitted Forms</h2>
-        {forms.map((form, index) => (
-          <div key={index} className="border p-4 mt-4">
-            <p>Name: {form.name}</p>
-            {form.image && (
-              <img src={`data:image/jpeg;base64,${form.image}`} alt="Student" style={{ maxWidth: "100px" }} />
-            )}
-          </div>
-        ))}
-      </div>
+     
     </div>
   );
 }
