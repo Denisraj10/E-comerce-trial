@@ -11,7 +11,7 @@ function AdminPage() {
 
   const fetchForms = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/getForms');
+      const response = await axios.get(`${import.meta.env.VITE_SERVER_APP_URL}/getForms`);
       setForms(response.data);
     } catch (error) {
       console.error('Error fetching forms:', error);

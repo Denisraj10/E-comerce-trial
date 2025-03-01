@@ -11,7 +11,7 @@ function Login() {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/login', { email, password });
+      const response = await axios.post(`${import.meta.env.VITE_SERVER_APP_URL}/login`, { email, password });
       if (response.data.role === 'admin') {
         navigate('/admin');
       } else {
