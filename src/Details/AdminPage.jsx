@@ -21,7 +21,7 @@ function AdminPage() {
   return (
     <div className="p-8">
        <div>
-        <h1 className='text-2xl font-bold text-center text-green-500 mb-4 bg-black p-5 '>NH HOSTEL APPLICATION FROM</h1>
+        <h1 className='text-2xl font-bold text-center text-green-500 mb-4 bg-black p-5 '>NH HOSTEL APPLICATION FORM</h1>
     </div>
       <h1 className="text-3xl font-bold mb-4">Admin page</h1>
       <div className="mt-8">
